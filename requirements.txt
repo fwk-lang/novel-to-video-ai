@@ -1,0 +1,34 @@
+# Novel to Video AI Platform - Requirements
+# Copyright (c) 2025 Wing Kin Fung (fwk@g.lwfss.edu.hk)
+# All dependencies required for the application
+
+# Core Framework
+streamlit>=1.28.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# Image Processing
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Text Processing
+re2>=1.0.1  # Optional: better regex performance
+
+# Data Handling
+base64
+os
+tempfile
+time
+
+# Future Dependencies (for video generation)
+# moviepy>=1.0.3  # Uncomment when implementing video generation
+# opencv-python>=4.8.0  # Uncomment for advanced video processing
+# gtts>=2.3.0  # Google Text-to-Speech (when implementing TTS)
+# edge-tts>=6.1.0  # Alternative TTS engine
+# pydub>=0.25.0  # Audio processing
+
+# Development and Testing (Optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
